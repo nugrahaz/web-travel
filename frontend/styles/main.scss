@@ -1,5 +1,193 @@
+body {
+    background-color: #E4E6EB;
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+}
+
+//
+// Navbar
+//
+
+//ukuran logo
 .navbar-brand {
     img {
         max-height: 40px;
+    }
+}
+
+//warna tulisan di navbar
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071C4D;
+
+            &.active {
+                font-weight: bold;
+                color: #071C4D !important;
+            }
+        }
+    }
+}
+
+//wadah button login (untuk menghilangkan white space)
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+//button login
+.btn-login {
+    background-color: #071C4D;
+    color: #fff;
+
+    &:hover {
+        background-color: #1E3771;
+        color: #fff;
+    }
+}
+
+//
+// Header
+//
+
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+
+    h1,
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #fff;
+
+        &:hover {
+            background-color: #FFAA69;
+            color: #fff;
+        }
+    }
+}
+
+// Statistics
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+}
+
+// Popular 
+
+.section-popular {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -230px;
+
+    .section-popular-heading {
+        margin-top: 150px;
+
+        h2,
+        p {
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+// Popular Content
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #ddd;
+            color: #fff;
+
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .travel-location {
+            font-size: 26px;
+            color: #fff;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: #FF9E53;
+                color: #fff;
+
+                &:hover {
+                    background-color: #FFAE6F;
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+}
+
+.section-networks {
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 250px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+
+    img {
+        max-height: 100%;
+
     }
 }
